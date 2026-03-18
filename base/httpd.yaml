@@ -4,6 +4,7 @@ metadata:
   name: httpd-app
   labels:
     app: httpd
+    argocd.argoproj.io/managed-by: openshift-gitops
 spec:
   replicas: 1
   selector:
