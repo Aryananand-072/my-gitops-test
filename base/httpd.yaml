@@ -6,7 +6,7 @@ metadata:
     app: httpd
     argocd.argoproj.io/managed-by: openshift-gitops
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: httpd
